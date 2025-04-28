@@ -36,6 +36,9 @@ const NotFound = () => {
             <Button variant="outline" asChild>
               <Link to="/symptoms">Browse Symptoms</Link>
             </Button>
+            <Button variant="outline" asChild>
+              <Link to="/knowledge-base">Knowledge Base</Link>
+            </Button>
           </div>
         </div>
       </div>
