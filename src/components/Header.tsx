@@ -30,6 +30,9 @@ export function Header() {
             <Link to="/knowledge-base" className="font-medium transition-colors hover:text-automotive-blue">
               Knowledge Base
             </Link>
+            <Link to="/vehicles" className="font-medium transition-colors hover:text-automotive-blue">
+              My Garage
+            </Link>
             <Link to="/community" className="font-medium transition-colors hover:text-automotive-blue">
               Community
             </Link>
@@ -70,6 +73,9 @@ export function Header() {
                 </Link>
                 <Link to="/knowledge-base" className="px-4 py-2 text-sm font-medium rounded-md hover:bg-muted">
                   Knowledge Base
+                </Link>
+                <Link to="/vehicles" className="px-4 py-2 text-sm font-medium rounded-md hover:bg-muted">
+                  My Garage
                 </Link>
                 <Link to="/community" className="px-4 py-2 text-sm font-medium rounded-md hover:bg-muted">
                   Community
