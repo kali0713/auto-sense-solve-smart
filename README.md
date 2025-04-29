@@ -1,28 +1,12 @@
-# Welcome to your Lovable project
+Project Info
+AI-driven academic tool
+Built to enhance student experiences at SRM University through automation and analytics.
 
-## Project info
+Editing the Code
+You can edit your application using your preferred workflow:
 
-**URL**: https://lovable.dev/projects/c7d5d9b0-affc-4407-9388-3cef8faf1381
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/c7d5d9b0-affc-4407-9388-3cef8faf1381) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
+1. Using Your Local IDE
+text
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
@@ -32,42 +16,66 @@ cd <YOUR_PROJECT_NAME>
 # Step 3: Install the necessary dependencies.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server with auto-reloading and instant preview.
 npm run dev
-```
+2. Edit Directly in GitHub
+Navigate to the desired file(s).
 
-**Edit a file directly in GitHub**
+Click the "Edit" button (pencil icon) at the top right of the file view.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Make your changes and commit them.
 
-**Use GitHub Codespaces**
+3. Use GitHub Codespaces
+Navigate to the main page of your repository.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click the "Code" button (green button) near the top right.
 
-## What technologies are used for this project?
+Select the "Codespaces" tab.
 
-This project is built with:
+Click "New codespace" to launch a new Codespace environment.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Edit files directly within Codespaces and commit your changes.
 
-## How can I deploy this project?
+Technologies Used
+Vite
 
-Simply open [Lovable](https://lovable.dev/projects/c7d5d9b0-affc-4407-9388-3cef8faf1381) and click on Share -> Publish.
+TypeScript
 
-## Can I connect a custom domain to my Lovable project?
+React
 
-Yes, you can!
+shadcn-ui
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Tailwind CSS
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Deployment
+To deploy your project, use your preferred deployment platform (such as Vercel, Netlify, or GitHub Pages). Follow the platform’s documentation for connecting your repository and deploying your site.
+
+What More Can You Add to the System Documentation?
+To make your README more comprehensive and useful, consider adding these sections:
+
+1. Project Overview
+Brief summary of the project’s purpose and features.
+
+2. Features
+List and describe the main features (e.g., student dashboard, analytics, notifications, personalized recommendations).
+
+3. Installation Guide
+Step-by-step instructions for setting up the project locally.
+
+4. Usage Instructions
+How to use the application (screenshots, user flows, demo accounts).
+
+5. Configuration
+Details about environment variables, API keys, or configuration files needed.
+
+6. Contributing
+Guidelines for contributing to the project (branching strategy, code style, pull request process).
+
+7. Testing
+Information on running tests, test coverage, and test commands.
+
+8. FAQ
+Answers to common questions about setup, usage, or troubleshooting.
+
+9. License
+Information about the project’s license.
